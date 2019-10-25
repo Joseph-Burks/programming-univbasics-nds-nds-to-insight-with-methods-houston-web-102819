@@ -18,5 +18,5 @@ end
 def gross_for_director(director_data)
   
   while
-    dir_gross += nds[dir_index][:movies][mov_index][:worldwide_grosses]
+    dir_gross += director_data[:movies][mov_index][:worldwide_grosses]
 end
