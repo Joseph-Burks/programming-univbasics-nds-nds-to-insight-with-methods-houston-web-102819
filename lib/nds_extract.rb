@@ -4,7 +4,10 @@ require 'directors_database'
 # The return value should be like:
 #
 # { directorOne => allTheMoneyTheyMade, ... }
-
+  # [
+  #  {:name => "string", :movies => [
+  #    {:title, :studio, :worldwide_gross, :release year},{},{}]}
+  #  {:,: => [{::::},{::::}{::::}]} 
 def directors_totals(nds)
   result = {}
   nil
