@@ -19,7 +19,7 @@ def gross_for_director(director_data)
   dir_gross = 0
   mov_index = 0
   while mov_index < director_data[:movies].length do
-    dir_gross += director_data[:movies][mov_index][:worldwide_grosses]
+    dir_gross += director_data[:movies][mov_index][:worldwide_gross]
     mov_index += 1
   end
   dir_gross
